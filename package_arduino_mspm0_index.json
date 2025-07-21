@@ -42,7 +42,7 @@
             "systems": [
                 {
                     "host": "x86_64-mingw32",
-                    "url": "https://github.com/sckulkarni246/arduino-mspm0-helper/blob/master/ti_cgt_arm_llvm_4.0.3.LTS_win.zip",
+                    "url": "https://github.com/sckulkarni246/arduino-mspm0-helper/raw/refs/heads/master/ti_cgt_arm_llvm_4.0.3.LTS_win.zip",
                     "archiveFileName": "ti_cgt_arm_llvm_4.0.3.LTS_win.zip",
                     "checksum": "SHA-256:db8916e21aea77feb211a8e8ac2ae90c0ef06352bd2524eff2fa7662ae9c19d6",
                     "size": "410363292"                    
