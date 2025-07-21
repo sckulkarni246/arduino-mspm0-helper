@@ -1,0 +1,55 @@
+{
+  "packages": [
+    {
+      "name": "mspm0",
+      "maintainer": "Shashank Kulkarni and Chander Goel",
+      "websiteURL": "https://github.com/sckulkarni246/arduino-mspm0",
+      "email": "shanky.kulkarni@gmail.com",
+      "help": {
+        "online": "https://github.com/sckulkarni246/arduino-mspm0"
+      },
+      "platforms": [
+        {
+          "name": "TI Launchpad",
+          "architecture": "mspm0",
+          "version": "0.1.8",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/sckulkarni246/arduino-mspm0"
+          },
+          "url": "https://github.com/sckulkarni246/arduino-mspm0/releases/download/v0.1.8/arduino-mspm0-v0.1.8.zip",
+          "archiveFileName": "arduino-mspm0-v0.1.8.zip",
+          "checksum": "SHA-256:dfed7bf4da951148dc2601006c032ba8f3654b8c602f40db5c04f6582ad8a92e",
+          "size": "1050953632",
+          "boards": [
+            {
+                "name": "LP-MSPM0G3507"
+            }
+            ],
+          "toolsDependencies": [
+            {
+              "packager": "mspm0",
+              "name": "ti-cgt-armllvm",
+              "version": "4.0.3.LTS"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+            "version": "4.0.3.LTS",
+            "name": "ti-cgt-armllvm",
+            "systems": [
+                {
+                    "host": "x86_64-mingw32",
+                    "url": "https://github.com/sckulkarni246/arduino-mspm0-helper/blob/master/ti_cgt_arm_llvm_4.0.3.LTS_win.zip",
+                    "archiveFileName": "ti_cgt_arm_llvm_4.0.3.LTS_win.zip",
+                    "checksum": "SHA-256:db8916e21aea77feb211a8e8ac2ae90c0ef06352bd2524eff2fa7662ae9c19d6",
+                    "size": "410363292"                    
+                }
+            ] 
+        }
+      ]
+    }
+  ]
+}
